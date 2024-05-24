@@ -611,5 +611,5 @@ def show_loja_screen(screen, player_name):
         pygame.display.update()
 
 pygame.init()
-screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.NOFRAME)
 show_start_screen(screen)
